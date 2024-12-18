@@ -1,0 +1,11 @@
+Movie Recommendation System.
+
+A simple movie recommendation system using Tkinter and SQLite.
+
+The users view their personal movies list, view recommended movies, or browse other movies. 
+  - Users can maintain (by adding movies to) a wishlist and a watchlist.
+  - The recommendation system suggests new movies based on the users most-watched genre. 
+  - Users can also browse movies based on genres, rating, etc.
+
+The frontend of the Movie Recommendation App is developed using Tkinter. The sqlite3 module is utilized for executing SQL queries to
+perform operations on the SQLite database, such as inserting records into the watched_movies and wishlist tables.
